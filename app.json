@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/edit/edit",
+    "pages/personal/personal"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,13 +20,13 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/edit/edit",
         "iconPath": "images/tabbarimg/edit.png",
         "selectedIconPath": "images/tabbarimg/edit-selected.png",
         "text": "发布"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/personal/personal",
         "iconPath": "images/tabbarimg/user.png",
         "selectedIconPath": "images/tabbarimg/user-selected.png",
         "text": "个人"
