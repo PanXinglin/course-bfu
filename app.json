@@ -8,28 +8,28 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
   },
-  "tabBar": {
-    "list": [
+  "tabBar":{
+    "list":[
       {
-        "pagePath": "pages/index/index",
-        "iconPath": "images/tabbarimg/home.png",
-        "selectedIconPath": "images/tabbarimg/home-selected.png",
-        "text": "首页"
+        "pagePath":"pages/index/index",
+        "iconPath":"images/tabbarimg/home.png",
+        "selectedIconPath":"images/tabbarimg/home-selected.png",
+        "text":"首页"
       },
       {
-        "pagePath": "pages/edit/edit",
-        "iconPath": "images/tabbarimg/edit.png",
-        "selectedIconPath": "images/tabbarimg/edit-selected.png",
-        "text": "发布"
+        "pagePath":"pages/edit/edit",
+        "iconPath":"images/tabbarimg/edit.png",
+        "selectedIconPath":"images/tabbarimg/edit-selected.png",
+        "text":"发布"
       },
       {
-        "pagePath": "pages/personal/personal",
-        "iconPath": "images/tabbarimg/user.png",
-        "selectedIconPath": "images/tabbarimg/user-selected.png",
-        "text": "个人"
+        "pagePath":"pages/personal/personal",
+        "iconPath":"images/tabbarimg/user.png",
+        "selectedIconPath":"images/tabbarimg/user-selected.png",
+        "text":"个人"
       }
     ]
   },
